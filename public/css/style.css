@@ -12,56 +12,115 @@
 }
 h1{
     font-family: 'Roboto', sans-serif;
-    font-size: 28px;
+    font-size: 34px;
+    color: #E8833A;
+    font-weight: normal;
 }
 h2{
     font-family: 'Roboto', sans-serif;
-    font-size: 22px;
+    font-size: 28px;
+    font-weight: normal;
 }
 h3{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 24px;
+    font-weight: normal;
 }
 h4{
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
+    font-weight: normal;
 }
 h5{
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+    font-size: 21px;
+    font-weight: normal;
 }
 h6{
     font-family: 'Roboto', sans-serif;
-    font-size: 12px;
-}
-p{
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-}
-.p2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 10px;
-}
-.p3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 18px;
+    font-weight: normal;
 }
 .flex{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.header img{
-    width: auto;
-    height: 53px;
+header{
+    background-color: #C3CFD9;
+    padding: 10px;
+}
+.titulo{
+    padding: 50px 10px;
 }
 button{
     cursor: pointer;
     background: transparent;
     border: none;
 }
-.hide{
-    display: none !important;
+.escondido{
+    display: none !important; 
 }
 
 /*Conteudo page1*/
+
+.listaFilmes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.filme{
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 10px;
+    margin: 0px 10px;
+}
+
+/* fim page1 */
+/* inicio page2 */
+
+.horarios{
+    padding-bottom: 98px;
+}
+.horario{
+    margin-bottom: 50px;
+}
+.horarioBotoes{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.horarioBotoes button{
+    background: #E8833A;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin-right: 10px;
+}
+.horarioBotoes h6{
+    color: white;
+}
+.rodape{
+    position: fixed;
+    bottom: 0;
+    background-color: #DFE6ED;
+    width: 100%;
+    left: 0;
+    padding: 10px;
+}
+.rodapeFilmeCompleto{
+    display: flex;
+    align-items: center;
+}
+.rodapeFilme{
+    box-shadow: 0px 2px 4px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: white;
+    margin-right: 20px;
+}
+.rodapeFilme img{
+    height: 70px;
+}
+
+/*Fim page2 */
